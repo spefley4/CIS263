@@ -2,7 +2,7 @@
 
 template<typename T>
 
-Class Stack2 {
+class Stack2 {
 
 	public:
 		// Constructor
