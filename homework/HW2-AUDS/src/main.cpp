@@ -2,20 +2,21 @@
 
 template<typename T>
 
-class Stack2 {
+class AUDS {
 
 	public:
 		// Constructor
-		Stack2() {
+		AUDS() {
 			ourData = new T[initSize];
 		}
 		// Destructor
-		~Stack2() {
+		~AUDS() {
 			delete[] ourData;
 		}
-	
-	private:	
+
+	private:
 		int initSize = 100;
-		int size = 0;
+		int currentSize;
 		T* ourData;
+
 };
